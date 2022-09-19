@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Shopping Cart</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="onlinestore.css">
+</head>
+
+
+<body id="body" onload="onLoad()">
+
+    <nav id="nav2">
+        <ul class="listlinks">
+            <li><a href="landingpage.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <h1> Shopping Cart</h1>
+
+    <div class="products-container">
+        <div class="product-header">
+            <h5 class="product-title"> Product</h5>
+            <h5 class="price">Price</h5>
+            <h5 class="quantity"> Quantity</h5>
+            <h5 class="total"> Total</h5>
+        </div>
+
+        <p id="removeAll"></p>
+
+        <div class="products"></div>
+    </div>
+
+    <div id="discountAndDelivery">
+
+        <h3>Discount Code</h3>
+        <input id="couponInput" type="text" />
+        <button id="couponButton">Apply Discount</button>
+
+        <h5> Total </h5>
+
+    </div>
+
+    <h4 id="deliveryModeAnimationTrigger">
+        Delivery Options
+        </h5>
+        <div id="deliveryModeWrapper">
+            <div id="content-panel">
+                <p> Please choose delivery or collection</p>
+                <input type="radio" id="delivery" name="deliveryMode" value="delivery" />
+                <label for="delivery">Delivery</label><br />
+                <input type="radio" id="collection" name="deliveryMode" value="collection" />
+                <label for="collection">Collection</label><br />
+                <button id="modeButton">Confirm</button>
+            </div>
+        </div>
+
+        <div id="deliveryMethodWrapper">
+            <p>Please choose delivery method:</p>
+            <input type="radio" id="nextDay" name="deliveryMethod" value="nextDay" />
+            <label for="nextDay">Next Day Delivery- £5</label><br />
+            <input type="radio" id="standardDelivery" name="deliveryMethod" value="standardDelivery" />
+            <label for="standardDelivery">Standard Delivery- Free </label><br />
+
+            <button id="methodButton">Confirm</button>
+        </div>
+
+
+
+        <button id="confirmOrder" onclick="confirmAlert()"> Confirm Order</button>
+
+        <script type="text/javascript" src="onlinestore.js"></script>
+
+</body>
+
+</html>

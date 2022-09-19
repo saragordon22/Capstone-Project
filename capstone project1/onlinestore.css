@@ -1,0 +1,307 @@
+body {
+  margin: auto;
+  width: 90%;
+  /*display: flex;
+    justify-content: center; I was going to add this to meet the requirement of the task to center all content, however, it created issues with the layout of my pages */
+}
+
+img {
+  padding: 5px;
+}
+
+/*padding for all images*/
+
+
+#mainnav,
+#nav2,
+#nav3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+  /* background border to all navigation bars*/
+}
+
+ul li {
+  display: inline;
+  /* displaying navigation bar list in a line*/
+}
+
+li a:visited {
+  color: bisque;
+  /*to prevent the links changing color when visited*/
+}
+
+li a {
+  color: bisque;
+}
+
+li a:hover {
+  color: white;
+}
+
+/*changes color to white when hovered over*/
+
+
+#image1 {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*centers the image and spans across the page*/
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  /*text over image*/
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  /*text over image*/
+
+}
+
+.images1 {
+  float: left;
+  width: 25%;
+  height: auto;
+}
+
+/*floating the images left aligns them in a row */
+
+#submitBtn {
+  margin-top: 5px;
+  margin-left: 50px
+}
+
+h1 {
+  background-color: bisque;
+}
+
+#aboutusheading {
+  font: helvetica;
+  text-align: center;
+}
+
+#aboutustext {
+  text-align: center;
+  font: helvetica;
+}
+
+#aboutusimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  /* centers the image */
+}
+
+#evri,
+#royalmail {
+  font-size: large;
+  font-weight: bold;
+}
+
+#item1,
+#item2,
+#item3,
+#item4,
+#item5,
+#item6,
+#item7,
+#item8,
+#item9,
+#item10,
+#item11,
+#item12 {
+  border: 1px solid;
+  padding: 10px;
+  width: 50%;
+  height: auto;
+}
+
+#itemdetails1,
+#itemdetails2,
+#itemdetails3,
+#itemdetails4,
+#itemdetails5,
+#itemdetails6,
+#itemdetails7,
+#itemdetails8,
+#itemdetails9,
+#itemdetails10,
+#itemdetails11,
+#itemdetails12 {
+  float: right;
+  /* text floats up next to the image*/
+  padding: 5px
+}
+
+
+#aboutustext {
+  background: bisque;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {
+    background-color: bisque;
+  }
+
+  to {
+    background-color: burlywood;
+  }
+
+  /*animates background colour*/
+}
+
+#reviews {
+  font-size: smaller;
+  font-style: italic;
+  float: none;
+  padding-top: 20px;
+}
+
+.cartBtn {
+  display: block;
+  color: white;
+  background-color: black;
+  border: 10px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/*CART PAGE*/
+
+.products-container {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightslategray;
+  margin: 0 auto;
+}
+
+.product-title {
+  width: 45%;
+  text-align: left;
+}
+
+.price {
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.quantity {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.total {
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid lightslategray;
+  padding: 10px 0;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.basketTotalVatContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.basketTotalTitle {
+  width: 30%
+}
+
+.basketTotal {
+  width: 10%;
+}
+
+.basketTotalVatTitle {
+  width: 30%
+}
+
+#discountAndDelivery {
+  border-top: 1px solid lightslategray;
+  display: block;
+  width: 30%;
+  align-items: center;
+  margin-left: 56%;
+}
+
+#confirmOrder {
+
+  display: block;
+  color: white;
+  background-color: black;
+  border: 10px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-left: 56%;
+}
+
+#deliveryModeAnimationTrigger {
+  border-top: 1px solid lightslategray;
+  display: block;
+  width: 30%;
+  align-items: center;
+  margin-left: 56%;
+}
+
+#deliveryModeWrapper {
+  display: block;
+  width: 30%;
+  align-items: center;
+  margin-left: 56%;
+}
+
+#deliveryMethodWrapper {
+  display: block;
+  width: 30%;
+  align-items: center;
+  margin-left: 56%;
+}
