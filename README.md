@@ -7,7 +7,7 @@ The online store capstone project is the first project in my developer portfolio
 * [Credits](#Credits)
 ### Installation and Usage
 Open the landingpage.html file to access the main page on the website, you can then navigate the other pages from there. Add items from the catalogue page to the basket to see the shopping cart in action. See screenshots below. 
-![Screenshot](./images/screenshot.png?raw=true "Screenshot")
+![Screenshot](https://raw.githubusercontent.com/saragordon22/Capstone-Project/main/capstone%20project1/images/screenshot.png "Screenshot")
 ![Screenshot2](https://raw.githubusercontent.com/saragordon22/Capstone-Project/main/capstone%20project1/images/%20screenshot2.png "Screenshot 2")
 ### Credits 
 Sara Gordon
